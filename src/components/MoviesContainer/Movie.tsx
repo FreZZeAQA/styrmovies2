@@ -1,7 +1,7 @@
 import React, { FC, PropsWithChildren } from "react";
-import { IMovie } from "../../interfaces/movieInterface";
+import { IMovie } from "../../interfaces";
 import { Link } from "react-router-dom";
-import { urls } from "../../constants/urls";
+import { urls } from "../../constants";
 import { Card, Col } from "react-bootstrap";
 import { Rating } from "@mui/material";
 import "./styles/Movie.scss";

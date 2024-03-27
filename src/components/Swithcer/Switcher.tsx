@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 
 import {Button} from "react-bootstrap";
-import {themeActions} from "../../store/slices/themeSlice";
-import {useAppDispatch, useAppSelector} from "../../hooks/reduxHooks";
+import {themeActions} from "../../store";
+import {useAppDispatch, useAppSelector} from "../../hooks";
 import {FaAdjust} from "react-icons/fa";
 
 const Switcher = () => {

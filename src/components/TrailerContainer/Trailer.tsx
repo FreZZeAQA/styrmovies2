@@ -1,6 +1,6 @@
 import {FC} from "react";
 import YouTube from "react-youtube";
-import {useAppSelector} from "../../hooks/reduxHooks";
+import {useAppSelector} from "../../hooks";
 
 
 

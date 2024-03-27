@@ -1,7 +1,7 @@
 import React, {FC, PropsWithChildren} from "react";
 
 import {Pagination} from "react-bootstrap";
-import {IPagination} from "../../interfaces/paginationInterface";
+import {IPagination} from "../../interfaces";
 
 interface IProps extends PropsWithChildren {
     paginationProps:IPagination

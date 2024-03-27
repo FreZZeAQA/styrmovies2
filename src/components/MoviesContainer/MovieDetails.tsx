@@ -1,9 +1,9 @@
 import React, { FC, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import {Button, Col, Container, Image, Row} from 'react-bootstrap';
-import { useAppDispatch, useAppSelector } from '../../hooks/reduxHooks';
-import { movieActions } from '../../store/slices/movieSlice';
-import { urls } from '../../constants/urls';
+import { useAppDispatch, useAppSelector } from '../../hooks';
+import { movieActions } from '../../store';
+import { urls } from '../../constants';
 import './styles/MovieDetails.scss';
 import {Rating, Tooltip} from "@mui/material";
 import {TrailerModal} from "../TrailerContainer/TrailerBox";

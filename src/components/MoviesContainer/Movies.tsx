@@ -4,8 +4,8 @@ import { Movie } from "./Movie";
 
 import { Row, Col, Container } from "react-bootstrap";
 import { CustomPagination } from "../Pagination/CustomPagination";
-import { movieActions } from "../../store/slices/movieSlice";
-import { useAppDispatch, useAppSelector } from "../../hooks/reduxHooks";
+import { movieActions } from "../../store";
+import { useAppDispatch, useAppSelector } from "../../hooks";
 
 const Movies: FC = () => {
     const { movies, currentPage, totalPages } = useAppSelector(state => state.movies);
