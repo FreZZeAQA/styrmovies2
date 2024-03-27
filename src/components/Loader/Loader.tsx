@@ -1,7 +1,7 @@
 
 import {ProgressBar} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {useAppSelector} from "../../hooks/reduxHooks";
+import {useAppSelector} from "../../hooks";
 
 const Loader = () => {
     const {loading} = useAppSelector(state => state.movies);
