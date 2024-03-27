@@ -3,8 +3,8 @@ import Modal from '@mui/material/Modal';
 import {FC} from "react";
 
 import {Trailer} from "./Trailer";
-import {movieActions} from "../../store/slices/movieSlice";
-import {useAppDispatch, useAppSelector} from "../../hooks/reduxHooks";
+import {movieActions} from "../../store";
+import {useAppDispatch, useAppSelector} from "../../hooks";
 
 const style = {
     position: 'absolute' as 'absolute',
