@@ -1,0 +1,16 @@
+
+.user-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem; // Space between icon and label
+  cursor: pointer;
+
+
+  &__icon {
+    font-size: 1.5rem; // Icon size
+  }
+
+  &__label {
+    font-size: 1rem; // Label font size
+  }
+}

@@ -1,0 +1,7 @@
+export * from './genreInterface'
+export * from './movieInterface'
+export * from './genreResponseInterface'
+export * from './movieResponseInterface'
+export * from './paginationInterface'
+export * from './trailerInterface'
+export * from './trailerRes'
