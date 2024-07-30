@@ -3,7 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import { Movie } from "./Movie";
 
 import { Row, Col, Container } from "react-bootstrap";
-import { CustomPagination } from "../Pagination/CustomPagination";
+import { CustomPagination } from "../Pagination";
 import { movieActions } from "../../store";
 import { useAppDispatch, useAppSelector } from "../../hooks";
 

@@ -6,7 +6,7 @@ import { movieActions } from '../../store';
 import { urls } from '../../constants';
 import './styles/MovieDetails.scss';
 import {Rating, Tooltip} from "@mui/material";
-import {TrailerModal} from "../TrailerContainer/TrailerBox";
+import {TrailerModal} from "../TrailerContainer";
 
 const MovieDetails: FC = () => {
     const { id } = useParams<{ id: string }>();

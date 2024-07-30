@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { Genres } from "../GenreContainer/Genres";
-import { MovieSearchForm } from "../Form/MovieSearchForm";
-import { Switcher } from "../Swithcer/Switcher";
+import { Genres } from "../GenreContainer";
+import { MovieSearchForm } from "../Form";
+import { Switcher } from "../Swithcer";
 import "./styles/Header.scss";
 import {Logo, UserIcon} from "../../icons";
 

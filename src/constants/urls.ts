@@ -6,7 +6,6 @@ const discover = '/discover'
 const search = '/search'
 const genres = '/genre'
 const list = '/list'
-const videos = '/videos'
 
 
 const urls = {
